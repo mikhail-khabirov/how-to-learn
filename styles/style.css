@@ -9,22 +9,15 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-p, h1, h2, h3 {
-  margin: 0;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
-  /* выше установили ограничения для секции */
-}
-
-.header_flex-row {
   display: flex;
   align-items: center;
+  /* выше установили ограничения для секции */
 }
 
 .logo {
@@ -43,7 +36,7 @@ p, h1, h2, h3 {
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
@@ -68,9 +61,6 @@ p, h1, h2, h3 {
 }
 
 .header__main-illustration {
-  background-image: url(../images/header-image.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 765px;
   height: 608px;
   position: absolute;
@@ -90,7 +80,7 @@ p, h1, h2, h3 {
   z-index: 0;
 }
 
-.description_flex-row {
+.description {
   display: flex;
   justify-content: center;
 }
@@ -99,20 +89,18 @@ p, h1, h2, h3 {
   width: 80%;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-.two-columns_flex-row {
   display: flex;
   justify-content: space-between;
 }
 
 .two-columns__brief {
-  width: 175px;   
-}
-
-.two-columns__link {
+  width: 175px; 
   text-decoration: none;
   color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -127,19 +115,18 @@ p, h1, h2, h3 {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
-.two-columns__paragraph:not(:nth-of-type(3)) {
-  margin-bottom: 30px;
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
   font-weight: bold;
 }
 
-.digits_margin_top {
-  margin-top: 100px;
-}
 .section-title {
   width: 60%;
   text-align: center;
@@ -149,10 +136,7 @@ p, h1, h2, h3 {
   margin: 0 auto;
   position: relative;
   z-index: 1;
-}
-
-.section-title_margins {
-  margin-top: 90px;
+  margin-top: 100px;
   margin-bottom: 20px; 
 }
 
@@ -176,6 +160,8 @@ p, h1, h2, h3 {
 
 .table__cell {
   width: 250px;
+  margin: 0;
+  padding: 0; 
   margin-top: 60px;
 }
 
@@ -183,6 +169,7 @@ p, h1, h2, h3 {
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
+  list-style: none;
 }
 
 .table__text {
@@ -190,15 +177,13 @@ p, h1, h2, h3 {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
+  list-style: none;
 }
 
 .feynman {
   background-color: #f2f2f2;
-  height: 790px;
-  position: relative; 
-}
-
-.feynman_padding_top {
+  min-height: 790px;
+  position: relative;
   padding-top: 100px;
 }
 
@@ -255,6 +240,7 @@ p, h1, h2, h3 {
 
 .section-subtitle_theme_dark {
   color: #fff;
+  z-index: 2;
 }
 
 .table_theme_dark {
@@ -271,6 +257,9 @@ p, h1, h2, h3 {
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -282,6 +271,10 @@ p, h1, h2, h3 {
   min-height: 350px;
   background-color: #1f1f1f;
   color: #fff;
+  display: flex;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  padding-top: 60px;
 }
 
 .footer__columns {
@@ -289,8 +282,7 @@ p, h1, h2, h3 {
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
-  padding-bottom: 40px;
-  padding-top: 60px;
+  
 }
 
 .footer__column {
@@ -321,6 +313,7 @@ p, h1, h2, h3 {
 }
 
 .footer__column-heading {
+  margin: 0;
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
@@ -328,32 +321,33 @@ p, h1, h2, h3 {
 }
 
 .footer__column-links {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__column-link {
   text-decoration: none;
   color: #fff;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  
 }
 
-.footer__column-links:last-of-type {
+.footer__column-link:last-of-type {
   margin-bottom: 16px;
+}
+
+.footer__social-icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .footer__social-icon {
-  text-decoration: none;
-  color: #fff;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__social-icon:last-of-type {
-  margin-bottom: 16px;
-}
-
-.footer__social-icon_margin {
   margin-right: 10px;
 }
-
-
-
