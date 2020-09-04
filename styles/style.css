@@ -54,7 +54,7 @@ p, h1, h2, h3 {
 .header__subtitle {
   width: 388px;
   position: absolute;
-  bottom: 30px; 
+  bottom: 30px;
   left: 64px;
   z-index: 2;
   font-size: 18px;
