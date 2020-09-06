@@ -163,6 +163,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 100px;
+  padding: 0;
 }
 
 .table__cell {
@@ -274,6 +275,7 @@
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: top center;
   width: 877px;
   height: 877px;
