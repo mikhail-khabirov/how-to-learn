@@ -60,6 +60,11 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  text-decoration: underline;
+
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -88,7 +93,6 @@
 .two-columns {
   width: 80%;
   margin-top: 100px;
-  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -223,6 +227,10 @@
   color: #000;
 }
 
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
 .feynman__photo {
   width: 867px;
   height: 637px;
@@ -246,6 +254,7 @@
 .section-subtitle_theme_dark {
   color: #fff;
   z-index: 2;
+  position: relative;
 }
 
 .table_theme_dark {
@@ -258,6 +267,7 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  position: relative;
   z-index: 1;
 }
 
@@ -346,6 +356,10 @@
 
 .footer__column-link:last-of-type {
   margin-bottom: 16px;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
 }
 
 .footer__social-icons {
