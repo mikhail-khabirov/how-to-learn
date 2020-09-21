@@ -3,9 +3,11 @@
   color: #fff;
   line-height: 30px;
   font-size: 18px;
-  font-weight: normal; 
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .footer__column-link:hover {
-  text-decoration: underline;
+  opacity: 0.3;
+  transition: opacity 0.5s linear;
 }

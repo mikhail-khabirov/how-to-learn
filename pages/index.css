@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/link-transition/link-transition.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -17,16 +16,10 @@
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
-@import url(../blocks/two-columns/__oakley-mtb/two-columns__oakley-mtb.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_attention.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_recall.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_competence.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_question.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_interliving.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
@@ -63,10 +56,7 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_arzamas.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_n1.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_polka.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_strelka.css);
+@import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
