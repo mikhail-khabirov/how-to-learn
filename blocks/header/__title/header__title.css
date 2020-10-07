@@ -1,9 +1,23 @@
 .header__title {
-  width: 730px;
+  max-width: 730px;
   margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
   position: relative;
   z-index: 2;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__title {
+    font-size: 77px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 45px;
+    margin-bottom: 250px
+  }
 }

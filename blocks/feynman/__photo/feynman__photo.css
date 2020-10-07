@@ -6,3 +6,17 @@
   left: 0;
   z-index: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .feynman__photo{
+    width: 768px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__photo{
+    width: 320px;
+    height: 360px;
+  }
+}

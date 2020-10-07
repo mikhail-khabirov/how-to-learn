@@ -7,3 +7,29 @@
   right: 0;
   z-index: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .header__square-pic {
+  height: 500px;
+  width: 500px;
+  top: 120px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__square-pic {
+    height: 300px;
+    width: 300px;
+    top: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__square-pic {
+    height: 180px;
+    width: 180px;
+    top: 430px;
+  }
+}
+
+    

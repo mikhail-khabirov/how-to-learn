@@ -2,3 +2,10 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+  .video__iframes {
+    flex-direction: column;
+    align-items: center;
+  }
+}

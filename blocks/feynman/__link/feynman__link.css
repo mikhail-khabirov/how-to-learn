@@ -7,9 +7,18 @@
   font-weight: normal;
   text-decoration: none;
   color: #000;
+  z-index: 1;
 }
 
 .feynman__link:hover {
   opacity: 0.3;
   transition: opacity 0.5s linear;
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__link {
+    font-size: 35px;
+    line-height: 1.2;
+    top: 42%;
+  }
 }

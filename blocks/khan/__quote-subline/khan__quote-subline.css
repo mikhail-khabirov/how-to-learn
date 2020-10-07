@@ -4,3 +4,9 @@
   font-weight: normal;
   margin: 10px 0 68px;
 }
+
+@media screen and (max-width: 767px) {
+  .khan__quote-subline {
+    margin-bottom: 34px;
+  }
+}

@@ -1,6 +1,13 @@
 .two-columns {
   width: 80%;
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-between;
+  margin: 100px auto 0;
+  display: grid;
+  grid-template-columns: 175px 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
 }

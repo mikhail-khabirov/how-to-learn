@@ -10,3 +10,9 @@
   right: -210px;
   z-index: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .kaufman__triangle {
+    top: 250px;
+  }
+}
