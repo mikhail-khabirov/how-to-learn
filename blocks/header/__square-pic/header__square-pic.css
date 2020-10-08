@@ -18,17 +18,17 @@
 
 @media screen and (max-width: 1023px) {
   .header__square-pic {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     top: 300px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header__square-pic {
-    height: 180px;
-    width: 180px;
-    top: 430px;
+    height: 300px;
+    width: 300px;
+    top: 370px;
   }
 }
 

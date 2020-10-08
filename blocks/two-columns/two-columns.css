@@ -9,5 +9,6 @@
 @media screen and (max-width: 767px) {
   .two-columns {
     grid-template-columns: 1fr;
+    margin-top: 50px;
   }
 }

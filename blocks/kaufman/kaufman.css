@@ -4,3 +4,9 @@
   overflow: hidden;
   padding-top: 90px;
 }
+
+@media screen and (max-width: 767px) {
+  .kaufman {
+    padding-top: 50px;
+  }
+}

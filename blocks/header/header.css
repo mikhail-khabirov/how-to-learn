@@ -8,3 +8,9 @@
   align-items: center;
   overflow: hidden;
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    max-height: auto;
+  }
+}
