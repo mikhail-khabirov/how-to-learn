@@ -9,3 +9,9 @@
   opacity: 0.3;
   transition: opacity 0.5s linear;
 }
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    display: block;
+  }
+}
